@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ✅ Move @import AFTER Tailwind directives */
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -14,8 +16,16 @@
   }
 }
 
+/* ✅ Global styling */
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #001a19, #003d39);
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
 }
