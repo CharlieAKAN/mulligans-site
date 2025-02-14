@@ -17,14 +17,14 @@ export default function Home() {
 
       <div className={styles.card}>
         <h1 className={styles.title}>Mulligans Coffee & Cards</h1>
-        <p className={styles.subtitle}>We're Coming Back Bigger and Better!</p>
+        <p className={styles.subtitle}>We&apos;re Coming Back Bigger and Better!</p>
 
         <p className={styles.text}>
-          In just one month, we'll be reopening with exciting updates, 
-          and our Binder Bot will be **completely upgraded**!
+          In just one month, we&apos;ll be reopening with exciting updates, 
+          and our Binder Bot will be <strong>completely upgraded</strong>!
         </p>
 
-        <p className={styles.text}>Stay tuned for more updates. You won't want to miss this!</p>
+        <p className={styles.text}>Stay tuned for more updates. You won&apos;t want to miss this!</p>
       </div>
     </main>
   );
